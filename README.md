@@ -1,12 +1,35 @@
-# React + Vite
+# Tenzies Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple dice game built with React and Vite. Roll until all dice show the same number, click a die to freeze its value, and try to beat your record!
 
-Currently, two official plugins are available:
+## Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clone the repository.
+2. Navigate to the project folder.
+3. Run `npm install` to install dependencies.
 
-## Expanding the ESLint configuration
+## Development
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Start the development server by running:
+
+```bash
+npm run dev
+```
+
+Then open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## Game Instructions
+
+- **Roll:** Roll the dice until all dice display the same number.
+- **Freeze:** Click on a die to freeze its current value.
+- **New Game:** Once all dice are frozen and equal, use the "New Game" button to restart.
+- **Restart:** Click the "Restart" button at any time to start over.
+
+## Technologies
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [nanoid](https://github.com/ai/nanoid)
+- [React Confetti](https://github.com/alampros/react-confetti)
+
+Enjoy the game!
